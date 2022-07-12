@@ -6,7 +6,7 @@ import tests.basePage.BasePageTest;
 import static constants.Constants.pagesUrls.HOME_PAGE_URL;
 
 public class HomePageTests extends BasePageTest {
-    @Test
+    @Test(testName = "KoKo")
     public void hitLoginWithoutEnteredData(){
         basePage.pageOpen(HOME_PAGE_URL);
         homePage
@@ -22,4 +22,5 @@ public class HomePageTests extends BasePageTest {
                 .clickLoginButton()
                 .checkValidationForNotMatchedCredentials();
     }
+
 }
