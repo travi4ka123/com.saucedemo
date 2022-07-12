@@ -22,10 +22,12 @@ public class BasePage {
     protected WebElement findOneElement(By by) {
         return new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOfElementLocated(by));
     }
+
     protected void checkOneElementIsAbsent(By by) {
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.stalenessOf(driver.findElement(by)));
     }
-    protected void clickOneElement(By by){
+
+    protected void clickOneElement(By by) {
         findOneElement(by).click();
     }
 }

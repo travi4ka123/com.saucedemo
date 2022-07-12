@@ -160,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="765" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1657612494406" />
+    <state x="602" y="111" key="CommitChangelistDialog2" timestamp="1657633676074">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="602" y="111" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1657633676074" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1657623852806">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -180,5 +184,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="159" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1657619016125" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1657633681632">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1657633681632" />
   </component>
 </project>
