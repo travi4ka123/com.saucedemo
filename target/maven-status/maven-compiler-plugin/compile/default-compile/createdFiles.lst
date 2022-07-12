@@ -1,0 +1,7 @@
+constants\Constants$pagesUrls.class
+pages\homePage\HomePage.class
+settings\CommonSettings.class
+constants\Constants$credentials.class
+constants\Constants$driverSettings.class
+constants\Constants.class
+pages\basePage\BasePage.class

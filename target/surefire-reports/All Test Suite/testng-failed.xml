@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [All Test Suite]">
+  <test name="123(failed)">
+    <classes>
+      <class name="tests.homePageTests.HomePageTests">
+        <methods>
+          <include name="clean"/>
+          <include name="quite"/>
+          <include name="loginWithIncorrectCredential"/>
+        </methods>
+      </class> <!-- tests.homePageTests.HomePageTests -->
+    </classes>
+  </test> <!-- 123(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
