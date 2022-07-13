@@ -2,47 +2,47 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="4113" started-at="2022-07-13T13:18:53Z" finished-at="2022-07-13T13:18:57Z">
+  <suite name="All Test Suite" duration-ms="3688" started-at="2022-07-13T13:56:11Z" finished-at="2022-07-13T13:56:14Z">
     <groups>
     </groups>
-    <test name="all" duration-ms="4113" started-at="2022-07-13T13:18:53Z" finished-at="2022-07-13T13:18:57Z">
+    <test name="all" duration-ms="3688" started-at="2022-07-13T13:56:11Z" finished-at="2022-07-13T13:56:14Z">
       <class name="tests.homePageTests.HomePageTests">
-        <test-method status="PASS" signature="addItemToCart()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="addItemToCart" duration-ms="1353" started-at="2022-07-13T16:18:53Z" description="It is possible to add item to cart" finished-at="2022-07-13T16:18:54Z">
+        <test-method status="PASS" signature="addItemToCart()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="addItemToCart" duration-ms="1131" started-at="2022-07-13T16:56:11Z" description="It is possible to add item to cart" finished-at="2022-07-13T16:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemToCart -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="316" started-at="2022-07-13T16:18:55Z" finished-at="2022-07-13T16:18:55Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="afterMethod" is-config="true" duration-ms="264" started-at="2022-07-13T16:56:12Z" finished-at="2022-07-13T16:56:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clean -->
-        <test-method status="PASS" signature="hitLoginWithoutEnteredData()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="hitLoginWithoutEnteredData" duration-ms="198" started-at="2022-07-13T16:18:55Z" description="KoKo" finished-at="2022-07-13T16:18:55Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="hitLoginWithoutEnteredData()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="hitLoginWithoutEnteredData" duration-ms="190" started-at="2022-07-13T16:56:12Z" description="KoKo" finished-at="2022-07-13T16:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hitLoginWithoutEnteredData -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="179" started-at="2022-07-13T16:18:55Z" finished-at="2022-07-13T16:18:55Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="afterMethod" is-config="true" duration-ms="112" started-at="2022-07-13T16:56:12Z" finished-at="2022-07-13T16:56:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clean -->
-        <test-method status="PASS" signature="loginWithCorrectCredential()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="loginWithCorrectCredential" duration-ms="287" started-at="2022-07-13T16:18:55Z" description="Log in with correct credentials" finished-at="2022-07-13T16:18:56Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginWithCorrectCredential()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="loginWithCorrectCredential" duration-ms="298" started-at="2022-07-13T16:56:13Z" description="Log in with correct credentials" finished-at="2022-07-13T16:56:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithCorrectCredential -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="420" started-at="2022-07-13T16:18:56Z" finished-at="2022-07-13T16:18:56Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="afterMethod" is-config="true" duration-ms="302" started-at="2022-07-13T16:56:13Z" finished-at="2022-07-13T16:56:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clean -->
-        <test-method status="PASS" signature="loginWithIncorrectCredential()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="loginWithIncorrectCredential" duration-ms="400" started-at="2022-07-13T16:18:56Z" finished-at="2022-07-13T16:18:56Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginWithIncorrectCredential()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="loginWithIncorrectCredential" duration-ms="440" started-at="2022-07-13T16:56:13Z" finished-at="2022-07-13T16:56:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithIncorrectCredential -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="166" started-at="2022-07-13T16:18:56Z" finished-at="2022-07-13T16:18:57Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="afterMethod" is-config="true" duration-ms="134" started-at="2022-07-13T16:56:14Z" finished-at="2022-07-13T16:56:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clean -->
-        <test-method status="PASS" signature="qqqqq()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="qqqqq" is-config="true" duration-ms="634" started-at="2022-07-13T16:18:57Z" finished-at="2022-07-13T16:18:57Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.homePageTests.HomePageTests@59018eed]" name="afterTest" is-config="true" duration-ms="646" started-at="2022-07-13T16:56:14Z" finished-at="2022-07-13T16:56:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- qqqqq -->
+        </test-method> <!-- afterTest -->
       </class> <!-- tests.homePageTests.HomePageTests -->
     </test> <!-- all -->
   </suite> <!-- All Test Suite -->
