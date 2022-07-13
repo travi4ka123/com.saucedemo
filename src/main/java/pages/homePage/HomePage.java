@@ -19,25 +19,34 @@ public class HomePage extends BasePage {
 
 
     public HomePage clickLoginButton(){
+        System.out.println("Clicking Log In button");
         clickOneElement(loginButton);
         return this;
     }
     public HomePage checkValidationForEmptyFields(){
+        System.out.println("checking 'Epic sadface: Username is required' error");
         findOneElement(validationErrorEmptyFields);
         Assert.assertEquals(findOneElement(userNameInputField).getCssValue("border-bottom-color"),"rgba(226, 35, 26, 1)");
         Assert.assertEquals(findOneElement(passwordInputField).getCssValue("border-bottom-color"), "rgba(226, 35, 26, 1)");
         return this;
     }
     public HomePage checkValidationForNotMatchedCredentials(){
+        System.out.println("checking 'Epic sadface: Username and password do not match any user in this service' error");
         findOneElement(validationErrorNotMatchedCredentials);
         Assert.assertEquals(findOneElement(userNameInputField).getCssValue("border-bottom-color"),"rgba(226, 35, 26, 1)");
         Assert.assertEquals(findOneElement(passwordInputField).getCssValue("border-bottom-color"), "rgba(226, 35, 26, 1)");
         return this;
     }
     public HomePage enterIncorrectCredentials(){
+        System.out.println("Entering incorrect credentials");
         findOneElement(userNameInputField).sendKeys(standard_user_name);
         findOneElement(passwordInputField).sendKeys("1234");
         return this;
     }
-
+    public HomePage enterCorrectCredentials(){
+        System.out.println("Entering correct credentials");
+        findOneElement(userNameInputField).sendKeys(standard_user_name);
+        findOneElement(passwordInputField).sendKeys(password);
+        return this;
+    }
 }

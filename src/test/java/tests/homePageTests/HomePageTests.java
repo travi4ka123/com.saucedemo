@@ -22,5 +22,21 @@ public class HomePageTests extends BasePageTest {
                 .clickLoginButton()
                 .checkValidationForNotMatchedCredentials();
     }
-
+    @Test(description = "Log in with correct credentials")
+    public void loginWithCorrectCredential(){
+        basePage.pageOpen(HOME_PAGE_URL);
+        homePage
+                .enterCorrectCredentials()
+                .clickLoginButton();
+        storePage
+                .checkPageOpen();
+    }
+    @Test(description = "It is possible to add item to cart")
+    public void addItemToCart(){
+        loginWithCorrectCredential();
+        storePage
+                .checkCartIsEmpty()
+                .addFirstItemToCart()
+                .checkCartIsNotEmpty();
+    }
 }

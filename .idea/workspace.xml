@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc67faa9-4382-4bf8-b34f-7cb97d3f6d02" name="Default Changelist" comment="" />
+    <list default="true" id="fc67faa9-4382-4bf8-b34f-7cb97d3f6d02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/allure-results/006c8699-3bb2-471f-92dc-238b0322d2ca-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/008313ad-22c8-4a89-be76-dda073f3bfd2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/03fa0ab7-4a29-4e90-b235-2ffe795bda6f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/05f899b7-87b1-4085-ada4-04ff22f49895-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/149ba03b-0e22-4175-bbfb-fb4e95190805-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/16bd797d-ad0d-4de4-b3bd-11acd194dbcc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/21aba8b6-6644-40d1-8134-7792cec2e269-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/25eb987d-c9a5-4dda-ad1f-85686dcf3308-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/279a413f-e74f-4393-adb0-6fd391f12b0a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/279dbc19-1f0e-4d3b-84b1-55c9f752af46-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3a7235ba-04e9-4ec9-870f-3863c6aa542c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/42e67b46-7331-4b02-a4ee-b77006925142-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/439bf6f0-0068-49be-9e12-4759a9a14fd0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/452f8711-6c01-43f7-a062-39880752aec0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/57e32403-de69-4dee-8283-c5d8d046f8bc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5a913c0c-f826-456d-8c13-c70f0242c525-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5fb96775-3b5e-47ea-8675-fbb018e82b53-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/66a4b6c1-67aa-46f2-a2d9-b500830229c1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6a0412dd-cfcb-4bd4-8a31-df0576f9eb40-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6d8593f7-ecc5-46da-b99b-a005a7b21f6c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/73bd6ed2-b88a-4bae-9a5e-d3a7ef130a93-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/754836fe-a82b-4099-89c8-1e1291bb984e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8007f371-8437-4e06-97eb-265996c9f2f8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/943beafc-5c4a-4cbd-94ca-f58d0304f608-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9631aba8-712b-480a-9a28-689b045e8553-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9b5d5a15-4b0c-4f7d-90b5-c7d7dc92b09f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bb1d2375-7f6c-4db8-bd92-47d8649f6a7f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bfde589f-7c77-4016-9ef1-9890af12276e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dd4a6d46-4550-41ca-82f1-c72a24e53a29-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e32cc2f8-ed50-4d60-b5d5-e6d6d3d74d8d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e3ecd619-7660-4c49-857f-6e58008db90a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ec02ef17-859f-4246-ac34-ced36491fc93-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fef2f814-7be1-4877-a750-1ddd1a93ff77-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/storePage/StorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/homePage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/settings/CommonSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/CommonSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/basePage/BasePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/basePage/BasePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/homePageTests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/homePageTests/HomePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/basePage/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/basePage/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/homePage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/basePage/BasePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/basePage/BasePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/homePageTests/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/homePageTests/HomePageTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,13 +68,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BpnScwwnLKyCyAnPNIrmhuE2py" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -42,7 +90,7 @@
       <recent name="C:\Users\serega\IdeaProjects\com.saucedemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/serega/IdeaProjects/com.saucedemo/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.HomePageTests">
     <configuration name="C:/Users/serega/IdeaProjects/com.saucedemo/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.saucedemo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
@@ -70,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.hitLoginWithoutData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTests.addItemToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.saucedemo" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.homePageTests" />
       <option name="MAIN_CLASS_NAME" value="tests.homePageTests.HomePageTests" />
-      <option name="METHOD_NAME" value="hitLoginWithoutData" />
+      <option name="METHOD_NAME" value="addItemToCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTests.loginWithCorrectCredential" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.saucedemo" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +164,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.homePageTests" />
       <option name="MAIN_CLASS_NAME" value="tests.homePageTests.HomePageTests" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="loginWithCorrectCredential" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/serega/IdeaProjects/com.saucedemo/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.HomePageTests" />
+        <item itemvalue="TestNG.HomePageTests.addItemToCart" />
+        <item itemvalue="TestNG.HomePageTests.loginWithCorrectCredential" />
+        <item itemvalue="TestNG.C:/Users/serega/IdeaProjects/com.saucedemo/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.HomePageTests.hitLoginWithoutEnteredData" />
-        <item itemvalue="TestNG.HomePageTests.hitLoginWithoutData" />
-        <item itemvalue="TestNG.HomePageTests.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +211,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="qwe" />
     <option name="LAST_COMMIT_MESSAGE" value="qwe" />
   </component>
@@ -183,22 +232,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="602" y="111" key="CommitChangelistDialog2/0.0.1920.1032@0.0.1920.1032" timestamp="1657633774739" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1657623852806">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1657715366668">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657623852806" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1657623852806">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1657715366668" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1657715366668">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657623852806" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1657623852806">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1657715366668" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1657715366668">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657623852806" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1657623852806">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1657715366668" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1657715366668">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657623852806" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1657715366668" />
     <state x="461" y="159" key="SettingsEditor" timestamp="1657619016125">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

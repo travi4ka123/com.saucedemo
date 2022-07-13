@@ -8,6 +8,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import pages.basePage.BasePage;
 import pages.homePage.HomePage;
+import pages.storePage.StorePage;
 import settings.CommonSettings;
 
 public class BasePageTest {
@@ -15,15 +16,12 @@ public class BasePageTest {
 
     protected BasePage basePage = new BasePage(driver);
     protected HomePage homePage = new HomePage(driver);
+    protected StorePage storePage = new StorePage(driver);
 
     @AfterTest
     public void clean(){
         takePhoto(driver);
         driver.manage().deleteAllCookies();
-    }
-
-    @AfterSuite
-    public void quite(){
         driver.quit();
     }
 
