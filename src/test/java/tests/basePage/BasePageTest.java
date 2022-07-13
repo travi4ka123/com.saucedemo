@@ -21,10 +21,11 @@ public class BasePageTest {
     @AfterMethod
     public void afterMethod() {
         takePhoto(driver);
-    }
-    @AfterTest
-    public void afterTest(){
         driver.manage().deleteAllCookies();
+    }
+
+    @AfterTest
+    public void afterTest() {
         driver.quit();
     }
 
