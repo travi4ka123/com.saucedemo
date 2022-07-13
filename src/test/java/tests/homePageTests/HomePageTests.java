@@ -6,15 +6,17 @@ import tests.basePage.BasePageTest;
 import static constants.Constants.pagesUrls.HOME_PAGE_URL;
 
 public class HomePageTests extends BasePageTest {
-    @Test(description = "KoKo")
-    public void hitLoginWithoutEnteredData(){
+
+    @Test(description = "Trying to login without entered data")
+    public void hitLoginWithoutEnteredData() {
         basePage.pageOpen(HOME_PAGE_URL);
         homePage
                 .clickLoginButton()
                 .checkValidationForEmptyFields();
     }
-    @Test
-    public void loginWithIncorrectCredential(){
+
+    @Test(description = "Log in with incorrect credentials")
+    public void loginWithIncorrectCredential() {
         basePage.pageOpen(HOME_PAGE_URL);
         homePage
                 .clickLoginButton()
@@ -22,8 +24,9 @@ public class HomePageTests extends BasePageTest {
                 .clickLoginButton()
                 .checkValidationForNotMatchedCredentials();
     }
+
     @Test(description = "Log in with correct credentials")
-    public void loginWithCorrectCredential(){
+    public void loginWithCorrectCredential() {
         basePage.pageOpen(HOME_PAGE_URL);
         homePage
                 .enterCorrectCredentials()
@@ -31,10 +34,12 @@ public class HomePageTests extends BasePageTest {
         storePage
                 .checkPageOpen();
     }
+
     @Test(description = "It is possible to add item to cart")
-    public void addItemToCart(){
+    public void addItemToCart() {
         loginWithCorrectCredential();
         storePage
+                .checkPageOpen()
                 .checkCartIsEmpty()
                 .addFirstItemToCart()
                 .checkCartIsNotEmpty();

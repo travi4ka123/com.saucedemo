@@ -2,6 +2,7 @@ package tests.basePage;
 
 import io.qameta.allure.Attachment;
 import org.aspectj.lang.annotation.Before;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +23,9 @@ public class BasePageTest {
     public void afterMethod() {
         takePhoto(driver);
         driver.manage().deleteAllCookies();
+        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
+        javascriptExecutor.executeScript("window.sessionStorage.clear()");
+        javascriptExecutor.executeScript("window.localStorage.clear()");
     }
 
     @AfterTest
