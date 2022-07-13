@@ -1,1 +1,0 @@
-{"uuid":"008313ad-22c8-4a89-be76-dda073f3bfd2","name":"com.saucedemo","start":1657714680635,"stop":1657714692878,"children":["16bd797d-ad0d-4de4-b3bd-11acd194dbcc"],"afters":[{"name":"clean","status":"passed","stage":"finished","description":"","start":1657714691854,"stop":1657714692874}]}

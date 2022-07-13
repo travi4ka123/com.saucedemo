@@ -1,80 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="13612" started-at="2022-07-12T10:12:01Z" finished-at="2022-07-12T10:12:15Z">
+  <suite name="All Test Suite" duration-ms="4113" started-at="2022-07-13T13:18:53Z" finished-at="2022-07-13T13:18:57Z">
     <groups>
     </groups>
-    <test name="123" duration-ms="13612" started-at="2022-07-12T10:12:01Z" finished-at="2022-07-12T10:12:15Z">
+    <test name="all" duration-ms="4113" started-at="2022-07-13T13:18:53Z" finished-at="2022-07-13T13:18:57Z">
       <class name="tests.homePageTests.HomePageTests">
-        <test-method status="PASS" signature="hitLoginWithoutEnteredData()[pri:0, instance:tests.homePageTests.HomePageTests@412ebe64]" name="hitLoginWithoutEnteredData" duration-ms="2558" started-at="2022-07-12T13:12:01Z" finished-at="2022-07-12T13:12:04Z">
+        <test-method status="PASS" signature="addItemToCart()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="addItemToCart" duration-ms="1353" started-at="2022-07-13T16:18:53Z" description="It is possible to add item to cart" finished-at="2022-07-13T16:18:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hitLoginWithoutEnteredData -->
-        <test-method status="FAIL" signature="loginWithIncorrectCredential()[pri:0, instance:tests.homePageTests.HomePageTests@412ebe64]" name="loginWithIncorrectCredential" duration-ms="10526" started-at="2022-07-12T13:12:04Z" finished-at="2022-07-12T13:12:15Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='Epic sadface: Username and password do not match any user in this service'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-SP408RB', ip: '192.168.100.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\serega\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:8256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8256/devtool..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dc477841aaa19a2ede8913f143bbe6a3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='Epic sadface: Username and password do not match any user in this service'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-SP408RB', ip: '192.168.100.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\serega\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:8256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8256/devtool..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dc477841aaa19a2ede8913f143bbe6a3
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at pages.basePage.BasePage.findOneElement(BasePage.java:23)
-	at pages.homePage.HomePage.checkValidationForNotMatchedCredentials(HomePage.java:32)
-	at tests.homePageTests.HomePageTests.loginWithIncorrectCredential(HomePageTests.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithIncorrectCredential -->
-        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@412ebe64]" name="clean" is-config="true" duration-ms="224" started-at="2022-07-12T13:12:15Z" finished-at="2022-07-12T13:12:15Z">
+        </test-method> <!-- addItemToCart -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="316" started-at="2022-07-13T16:18:55Z" finished-at="2022-07-13T16:18:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clean -->
-        <test-method status="PASS" signature="quite()[pri:0, instance:tests.homePageTests.HomePageTests@412ebe64]" name="quite" is-config="true" duration-ms="640" started-at="2022-07-12T13:12:15Z" finished-at="2022-07-12T13:12:15Z">
+        <test-method status="PASS" signature="hitLoginWithoutEnteredData()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="hitLoginWithoutEnteredData" duration-ms="198" started-at="2022-07-13T16:18:55Z" description="KoKo" finished-at="2022-07-13T16:18:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quite -->
+        </test-method> <!-- hitLoginWithoutEnteredData -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="179" started-at="2022-07-13T16:18:55Z" finished-at="2022-07-13T16:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="loginWithCorrectCredential()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="loginWithCorrectCredential" duration-ms="287" started-at="2022-07-13T16:18:55Z" description="Log in with correct credentials" finished-at="2022-07-13T16:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCredential -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="420" started-at="2022-07-13T16:18:56Z" finished-at="2022-07-13T16:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="loginWithIncorrectCredential()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="loginWithIncorrectCredential" duration-ms="400" started-at="2022-07-13T16:18:56Z" finished-at="2022-07-13T16:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectCredential -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="clean" is-config="true" duration-ms="166" started-at="2022-07-13T16:18:56Z" finished-at="2022-07-13T16:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="qqqqq()[pri:0, instance:tests.homePageTests.HomePageTests@798cb6d9]" name="qqqqq" is-config="true" duration-ms="634" started-at="2022-07-13T16:18:57Z" finished-at="2022-07-13T16:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qqqqq -->
       </class> <!-- tests.homePageTests.HomePageTests -->
-    </test> <!-- 123 -->
+    </test> <!-- all -->
   </suite> <!-- All Test Suite -->
 </testng-results>

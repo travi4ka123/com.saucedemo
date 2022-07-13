@@ -1,5 +1,6 @@
 package pages.homePage;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -17,7 +18,7 @@ public class HomePage extends BasePage {
     By validationErrorEmptyFields = By.xpath("//*[text()='Epic sadface: Username is required']");
     By validationErrorNotMatchedCredentials = By.xpath("//*[text()='Epic sadface: Username and password do not match any user in this service']");
 
-
+    @Step(value = "Clicking Log In button")
     public HomePage clickLoginButton(){
         System.out.println("Clicking Log In button");
         clickOneElement(loginButton);

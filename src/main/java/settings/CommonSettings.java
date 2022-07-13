@@ -12,7 +12,7 @@ public class CommonSettings {
     public static WebDriver createDriver(){
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+      //  driver.manage().window().maximize();
      //   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
         return driver;
     }

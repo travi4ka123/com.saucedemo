@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.072" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.836" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
@@ -64,16 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="hitLoginWithoutEnteredData" classname="tests.homePageTests.HomePageTests" time="2.557"/>
-  <testcase name="loginWithIncorrectCredential" classname="tests.homePageTests.HomePageTests" time="10.538">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()=&apos;Epic sadface: Username and password do not match any user in this service&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-SP408RB&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\serega\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:8256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8256/devtool..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dc477841aaa19a2ede8913f143bbe6a3" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='Epic sadface: Username and password do not match any user in this service'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-SP408RB', ip: '192.168.100.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\serega\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:8256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8256/devtool..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dc477841aaa19a2ede8913f143bbe6a3
-	at tests.homePageTests.HomePageTests.loginWithIncorrectCredential(HomePageTests.java:23)
-</failure>
-  </testcase>
+  <testcase name="addItemToCart" classname="tests.homePageTests.HomePageTests" time="1.352"/>
+  <testcase name="hitLoginWithoutEnteredData" classname="tests.homePageTests.HomePageTests" time="0.198"/>
+  <testcase name="loginWithCorrectCredential" classname="tests.homePageTests.HomePageTests" time="0.287"/>
+  <testcase name="loginWithIncorrectCredential" classname="tests.homePageTests.HomePageTests" time="0.4"/>
 </testsuite>

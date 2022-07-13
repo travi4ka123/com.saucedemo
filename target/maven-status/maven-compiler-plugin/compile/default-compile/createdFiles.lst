@@ -1,3 +1,4 @@
+pages\storePage\StorePage.class
 constants\Constants$pagesUrls.class
 pages\homePage\HomePage.class
 settings\CommonSettings.class

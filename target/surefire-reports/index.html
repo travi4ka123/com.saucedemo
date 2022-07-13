@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-All_Test_Suite">
-              <span class="suite-name border-failed">All Test Suite</span>
+              <span class="suite-name border-passed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
-                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="tests.homePageTests.HomePageTests" hash-for-method="loginWithIncorrectCredential">loginWithIncorrectCredential</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,7 +101,22 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="tests.homePageTests.HomePageTests" hash-for-method="addItemToCart">addItemToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="tests.homePageTests.HomePageTests" hash-for-method="hitLoginWithoutEnteredData">hitLoginWithoutEnteredData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="tests.homePageTests.HomePageTests" hash-for-method="loginWithCorrectCredential">loginWithCorrectCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="tests.homePageTests.HomePageTests" hash-for-method="loginWithIncorrectCredential">loginWithIncorrectCredential</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -130,34 +131,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.homePageTests.HomePageTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithIncorrectCredential">
-                  </a> <!-- loginWithIncorrectCredential -->
-                  <span class="method-name">loginWithIncorrectCredential</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()=&apos;Epic sadface: Username and password do not match any user in this service&apos;] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;DESKTOP-SP408RB&apos;, ip: &apos;192.168.100.14&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\serega\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:8256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8256/devtool..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dc477841aaa19a2ede8913f143bbe6a3
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at pages.basePage.BasePage.findOneElement(BasePage.java:23)
-	at pages.homePage.HomePage.checkValidationForNotMatchedCredentials(HomePage.java:32)
-	at tests.homePageTests.HomePageTests.loginWithIncorrectCredential(HomePageTests.java:23)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -166,9 +139,36 @@ Session ID: dc477841aaa19a2ede8913f143bbe6a3
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="addItemToCart">
+                  </a> <!-- addItemToCart -->
+                  <span class="method-name">addItemToCart</span>
+                  <em>
+(It is possible to add item to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="hitLoginWithoutEnteredData">
                   </a> <!-- hitLoginWithoutEnteredData -->
                   <span class="method-name">hitLoginWithoutEnteredData</span>
+                  <em>
+(KoKo)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithCorrectCredential">
+                  </a> <!-- loginWithCorrectCredential -->
+                  <span class="method-name">loginWithCorrectCredential</span>
+                  <em>
+(Log in with correct credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithIncorrectCredential">
+                  </a> <!-- loginWithIncorrectCredential -->
+                  <span class="method-name">loginWithIncorrectCredential</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,11 +183,11 @@ Session ID: dc477841aaa19a2ede8913f143bbe6a3
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;All Test Suite&quot;&gt;
-  &lt;test name=&quot;123&quot;&gt;
+  &lt;test name=&quot;all&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.homePageTests.HomePageTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- 123 --&gt;
+  &lt;/test&gt; &lt;!-- all --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,7 +199,7 @@ Session ID: dc477841aaa19a2ede8913f143bbe6a3
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">123 (1 class)</span>
+                <span class="test-name">all (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,20 +225,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginWithIncorrectCredential')
+data.setCell(0, 1, 'addItemToCart')
 data.setCell(0, 2, 'tests.homePageTests.HomePageTests')
-data.setCell(0, 3, 10526);
+data.setCell(0, 3, 1353);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'hitLoginWithoutEnteredData')
+data.setCell(1, 1, 'loginWithIncorrectCredential')
 data.setCell(1, 2, 'tests.homePageTests.HomePageTests')
-data.setCell(1, 3, 2558);
+data.setCell(1, 3, 400);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginWithCorrectCredential')
+data.setCell(2, 2, 'tests.homePageTests.HomePageTests')
+data.setCell(2, 3, 287);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'hitLoginWithoutEnteredData')
+data.setCell(3, 2, 'tests.homePageTests.HomePageTests')
+data.setCell(3, 3, 198);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -266,23 +274,41 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.homePageTests.HomePageTests</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">hitLoginWithoutEnteredData</span>
+                <span class="method-name">addItemToCart</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginWithIncorrectCredential</span>
-                <span class="method-start">2829 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">clean</span>
-                <span class="method-start">13373 ms</span>
+                <span class="method-start">1487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">hitLoginWithoutEnteredData</span>
+                <span class="method-start">1803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">clean</span>
+                <span class="method-start">2002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginWithCorrectCredential</span>
+                <span class="method-start">2181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">clean</span>
+                <span class="method-start">2469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginWithIncorrectCredential</span>
+                <span class="method-start">2889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">clean</span>
+                <span class="method-start">3290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">qqqqq</span>
+                <span class="method-start">3458 ms</span>
               </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">quite</span>
-                <span class="method-start">13632 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
