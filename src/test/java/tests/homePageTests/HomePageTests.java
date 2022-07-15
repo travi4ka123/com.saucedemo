@@ -19,7 +19,6 @@ public class HomePageTests extends BasePageTest {
     public void loginWithIncorrectCredential() {
         basePage.pageOpen(HOME_PAGE_URL);
         homePage
-                .clickLoginButton()
                 .enterIncorrectCredentials()
                 .clickLoginButton()
                 .checkValidationForNotMatchedCredentials();
@@ -39,9 +38,28 @@ public class HomePageTests extends BasePageTest {
     public void addItemToCart() {
         loginWithCorrectCredential();
         storePage
-                .checkPageOpen()
                 .checkCartIsEmpty()
                 .addFirstItemToCart()
                 .checkCartIsNotEmpty();
+    }
+
+    @Test(description = "It is possible to add some items to cart")
+    public void addSomeItemsToCart() {
+        loginWithCorrectCredential();
+        storePage
+                .checkCartIsEmpty()
+                .addFirstItemToCart()
+                .addSecondItemToCart()
+                .checkCartHasTwoItems();
+    }
+
+    @Test(description = "It is possible to add item to cart and remove it after")
+    public void addSomeItemsToCartAndRemove() {
+        loginWithCorrectCredential();
+        storePage
+                .checkCartIsEmpty()
+                .addFirstItemToCart()
+                .removingFirstItemFromCart()
+                .checkCartIsEmpty();
     }
 }
